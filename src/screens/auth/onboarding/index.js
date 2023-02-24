@@ -4,7 +4,15 @@ import colors from '../../../constants/colors';
 
 const image = require('../../../assets/woman-bg.png');
 
-const Onboarding = () => (
+
+
+
+
+const Onboarding = ({navigation}) => (
+    setTimeout(() => {
+        navigation.navigate('Country');
+    }, 2000),
+
   <View style={styles.container}>
     <ImageBackground source={image} resizeMode="cover" style={styles.image}>
         <Image 

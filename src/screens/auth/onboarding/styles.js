@@ -12,9 +12,8 @@ const styles = StyleSheet.create({
     },
     
     logo: {
-        width: '100%',
-        height: 100,
-        //padding: '50% 10px',
+        width: 170,
+        height: 52,
     },
 
     image: {
