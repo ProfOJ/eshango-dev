@@ -14,7 +14,9 @@ const TermsAndConditions = ({navigation}) => {
   const maximumCodeLength = 4;
   return (
     <View style={styles.container}>
-      <View style={{alignItems: 'left',}}>
+      <View 
+      //style={{alignItems: 'left',}}
+      >
             
             <Text style={styles.title}>Terms & Conditions</Text>
 

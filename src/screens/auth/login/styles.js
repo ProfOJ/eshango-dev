@@ -65,6 +65,7 @@ const styles = StyleSheet.create({
     textInput: {
         paddingVertical: 0,
         fontSize: 24,
+        height: 30,
     },
 })
 
